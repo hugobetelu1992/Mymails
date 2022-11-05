@@ -1,3 +1,68 @@
+/* WELCOME PAGE */
+.welcome-container{
+    width: 100vw;
+    height: 100vh;
+    background-color:#000000;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/background-img-welcome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
+    width: 50%;
+    height: 50%;
+    background-color: #161618;
+    border-radius: 10px;
+    outline: 2px solid #212124;
+    box-shadow: 0px 20px 20px 3px #000000;
+}
+
+.mainlogo{
+    height: 80px;
+    width: 80px;
+}
+
+
+.button {
+    display: inline;
+    width: auto;
+    height: 35px;
+    background: #FFFFFF;
+    margin-top: 30px;
+    padding: 20px;
+    text-align:center;
+    border-radius: 5px;
+    color:#000000;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'SF Pro Display', sans-serif;
+    text-decoration: none; 
+}
+
+.disclamer{
+    color: #818181;
+    font-family: 'SF Pro Display', sans-serif;
+    text-align: center;
+}
+
+.tagline{
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* MY MAILS */
 /* NAV BAR */
 
 .navbar {
@@ -74,25 +139,18 @@ body {
     height: 80px;
 }
 
-.content {
+.content-container {
     margin-right: 5%;
     margin-left: 5%;
 }
 
-/* GLOBAL STYLE PARAMS */
-h1 {
-    color: white;
-    font-family: 'SF Pro Display', sans-serif;
-    font-weight: 500;
-}
-
-h2 {
+.email-object {
     color: white;
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 300;
 }
 
-p {
+.email-content {
     color: #818181;
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 100;
@@ -100,6 +158,13 @@ p {
     overflow: hidden;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+}
+
+/* GLOBAL STYLE PARAMS */
+h1 {
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 500;
 }
 
 /* MEDIA QUERIES */
@@ -115,7 +180,7 @@ p {
         width: 100%;
     }
 
-    p {
+    .email-content {
         display: -webkit-box;
         overflow: hidden;
         -webkit-line-clamp: 3;
