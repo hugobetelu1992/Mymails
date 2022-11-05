@@ -1,4 +1,5 @@
 /* NAV BAR */
+
 .navbar{
     width: 100vw;
     height: 100px;
@@ -18,4 +19,43 @@ h1{
     align-items: center;
     padding-top: 5px;
     margin-left: 2vw;
+}
+
+/* INBOX CONTAINER */
+
+.inboxcontainer{
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68, 68, 68);
+
+}
+
+/* EMAIL */
+.email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.trash{
+    max-width: 30px;
+    height: 30px;
+    margin-right: 5%;
+}
+
+.profilepicture{
+    margin-left: 5%;
+}
+
+.content{
+    margin-right: 5%;
+    margin-left: 5%;
 }
