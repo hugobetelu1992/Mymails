@@ -93,6 +93,14 @@ body {
     margin-top: 3%;
     width: 60%;
 }
+/* ADD NEW MESSAGE */
+
+.newmessage{
+    display: flex;
+    flex-direction: row;
+    align-items: ;
+
+}
 
 /* EMAIL */
 .email {
@@ -164,7 +172,7 @@ h2 {
     color: white;
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 300;
-    text-align: center;
+
 }
 
 .button {
@@ -239,7 +247,7 @@ label {
         align-items: center;
     }
 
-    .trash {
+    /* .trash {
         display: none;
-    }
+    } */
 }
